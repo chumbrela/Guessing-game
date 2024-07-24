@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62.5%;
+}
+body, html {
+  height: 100vh;
+  place-items: center;
+  display: grid;
+    
+  margin: 0;
+  
+
+  background: rgb(161,196,253);
+  background: linear-gradient(90deg, rgba(161,196,253,1) 100%, rgba(194,233,251,1) 100%);
+}
+.screen2.hide, .screen1.hide{
+  display: none;
+}
+.cont{
+  background: white;
+  border-radius: .4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+  width: 42.8rem;
+  height: 27rem;
+
+  padding: 4.8rem 6.4rem;
+  h1{
+    font-size: 2.4rem;
+    line-height: auto;
+    color: #34355b;
+    margin-bottom: 1.6rem;
+  }
+  p{
+    font-family: 'DM sem', sans-serif;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #34355bbe;
+
+    margin-bottom: 4.8rem;
+  }
+}
+form{
+  display: flex;
+
+  button{
+    width: 8.2rem;
+
+    font-family: 'DM sem', sans-serif;
+    font-size: 1.6rem;
+    line-height: auto;
+    font-weight: 700;
+    color: white;
+
+    padding: 1.5rem;
+
+    border: none;
+    border-radius: 0 .4rem .4rem 0;
+
+    background-color: #7879f1;
+
+  }
+}
+button:hover{
+  background: #5757f3;
+  cursor: pointer;
+  opacity: 60;
+}
+#attempt{
+  width: 43px;
+  height: 53px;
+
+  border: none;
+  border-radius: 4px  0 0 4px;
+  background:#dce2e9;
+
+  font-family: 'DM sem', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color:#34355b;
+  padding: 15px;
+  
+}
+
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.screen2, .screen2.hide{
+ 
+  h2{
+    font-family: 'DM sem', sans-serif;
+    font-weight: 400;
+    width: 30rem;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: #34355b;
+
+    margin-left: 5rem;
+    margin-bottom: 3.3rem;
+  }
+  button{
+    width: 16.6rem;
+
+    font-family: 'DM sem', sans-serif;
+    font-size: 1.6rem;
+    line-height: auto;
+    font-weight: 700;
+    color: white;
+
+    padding: 1.5rem;
+
+    border: none;
+    border-radius: .4rem;
+
+    background-color: #7879f1;
+
+  }
+  button:hover{
+    background: #5757f3;
+  }
+}
